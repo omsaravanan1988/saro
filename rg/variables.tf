@@ -5,6 +5,6 @@ variable "vnetprefix" {
 }
 variable "subnetprefix" {
   description = "subnetrange"
-  type = int
+  type = list (string)
   default = [ "10.0.1.0/24" ]
 }

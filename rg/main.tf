@@ -2,7 +2,7 @@ resource "azurerm_resource_group" "example" {
   name     = "example-resources"
   location = "Central India"
   tags = {
-    environment = "example"
+    environment = "example1"
   }
 }
 
